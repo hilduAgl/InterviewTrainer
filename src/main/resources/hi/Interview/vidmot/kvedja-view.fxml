@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@css/interview.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hi.Interview.vidmot.KvedjaController">
+   <children>
+      <Text layoutX="169.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="bae" text="Good luck!" textAlignment="CENTER" wrappingWidth="272.5107421875">
+      </Text>
+      <Button fx:id="fxHaetta" layoutX="273.0" layoutY="348.0" mnemonicParsing="false" onAction="#onKvedja" text="Quit" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="231.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../froskur.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
